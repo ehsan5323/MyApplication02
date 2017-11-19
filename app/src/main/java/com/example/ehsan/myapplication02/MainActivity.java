@@ -12,6 +12,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        Toast.makeText(this, "masterBranch_OK", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "EhsanBranch_OK", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "ok ehsan", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "masterBranch_OK", Toast.LENGTH_SHORT).show();
 //        Toast.makeText(this, "ehsanBranch3", Toast.LENGTH_SHORT).show();
         Button btnok= (Button) findViewById(R.id.btnok);
@@ -22,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "master_ok", Toast.LENGTH_SHORT).show();
             }
         });
+        Toast.makeText(this, "masterBranch_OK", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "ehsanBranch3", Toast.LENGTH_SHORT).show();
 
 
     }
